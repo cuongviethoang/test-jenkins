@@ -2,6 +2,8 @@
 
 const pageTurnBtn = document.querySelectorAll(".nextprev-btn");
 
+console.log(1);
+
 pageTurnBtn.forEach((el, index) => {
     el.onclick = () => {
         const pageTurnId = el.getAttribute("data-page");
